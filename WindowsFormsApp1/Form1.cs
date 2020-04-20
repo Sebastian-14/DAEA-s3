@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        SqlConnection connection = new SqlConnection("Data Source= sql5047.site4now.net; Initial Catalog=DB_A5A766_sebastiantecsup; User ID=DB_A5A766_sebastiantecsup_admin; Password=T3csup3720;");
+        SqlConnection connection = new SqlConnection("Data Source= ''; Initial Catalog''; User ID=''; Password=''");
         SqlCommand cmd;
         SqlDataReader dr;
 
